@@ -2,7 +2,7 @@ import {MapContainer, TileLayer, Marker, Popup,useMap} from 'react-leaflet'
 import * as L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import 'leaflet-routing-machine'
-import {useState,useEffect,} from 'react'
+import {useEffect} from 'react'
 
 declare module "leaflet"{
     namespace Routing {

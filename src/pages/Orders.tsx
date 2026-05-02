@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 import { useSocket } from "../context/SocketContext"
 import axios from "axios"
 import { restaurantService } from "../main"
-import { BiPackage } from "react-icons/bi"
+
 
 const ACTIVE_STATUSES=["placed","accepted","preparing","ready_for_rider","rider_assigned","picked_up"]
 
